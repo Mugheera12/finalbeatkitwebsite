@@ -1,0 +1,835 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #0E0837;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #0E0837;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.left {
+    margin-left: 1rem;
+}
+
+.mid ul {
+    display: flex;
+    gap: 3rem;
+    /* align-items: center; */
+    list-style: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.right {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.bi-list {
+    font-size: 30px;
+    display: none;
+}
+
+.front {
+    background-color: #0E0837;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.f-left {
+    width: 35%;
+    margin-top: 100px;
+}
+
+.f-left h6 {
+    color: #D71462;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.f-left h4 {
+    letter-spacing: 0.5px;
+}
+
+.f-left h1 {
+    /* margin: 3rem 0; */
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Orbitron", Sans-serif;
+}
+
+.f-right {
+    width: 50%;
+}
+
+/* .f-right img{
+    scale: 1.1;
+}  */
+.front-icons {
+    display: flex;
+    gap: 1.4rem;
+    font-size: 20px;
+}
+
+.Discover {
+    background-color: #0567F3;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 40px;
+    /* padding: 1rem; */
+}
+
+.tours {
+    display: flex;
+    width: 76%;
+    margin: auto;
+    /* padding: 1rem; */
+    /* margin-top: -10%; */
+}
+
+.t-info {
+    width: 70%;
+    background-color: #100726;
+    padding: 2rem;
+    align-self: self-start;
+    margin-top: -35px;
+}
+
+.t-image {
+    width: 30%;
+    background-color: #B91259;
+    margin-top: -140px;
+}
+
+.t-img {
+    overflow: hidden;
+}
+
+.t-img img {
+    transition: all 0.3s;
+}
+
+.t-img img:hover {
+    scale: 1.1;
+    rotate: 5deg;
+}
+
+.cards {
+    display: flex;
+    gap: 3rem;
+
+}
+
+.cards1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.t-text {
+    padding: 0.5rem;
+}
+
+.t-text a {
+    /* margin-left: 80px; */
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    /* font-weight: bold; */
+    margin: 4rem;
+}
+
+.t-text p {
+    padding: 0.4rem;
+    margin: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.t-info h4 {
+    color: #D71462;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.cards1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards1 hr {
+    width: 65%;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.our h6 {
+    color: #B91259;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.our h1 {
+    font-size: 70px;
+    margin: 1rem 0;
+}
+
+.Ab {
+    height: 250px;
+}
+
+.about-us {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    /* padding: 0 1rem; */
+}
+
+.ma-left {
+    width: 50%;
+}
+
+.ma-right {
+    width: 50%;
+}
+
+.ma-left h6 {
+    color: #B91259;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.ma-left h2 {
+    font-size: 40px;
+    margin: 1rem 0;
+    /* font-weight: bolder; */
+}
+
+.second-div {
+    padding: 3rem;
+    margin: auto;
+    display: flex;
+    background-color: #281737;
+    gap: 2rem;
+}
+
+.second-left {
+    width: 50%;
+}
+
+.second-right {
+    width: 40%;
+    background-color: #141857;
+    padding: 2rem;
+}
+
+.second-right h5 {
+    color: #D71462;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.second-right h1 {
+    font-size: 3rem;
+}
+
+.q {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+
+.s-right-text {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1.4rem;
+    align-items: center;
+}
+
+.s-right-t h6 {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.s-right-i {
+    font-size: 1.3rem;
+
+    padding: 0.6rem;
+    background: linear-gradient(130deg, #2F57D7, #B3227B);
+    border-radius: 50%;
+}
+
+
+
+
+.s-text-1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #110938, #B9135B);
+    padding: 0.5rem 1rem;
+}
+
+.s-text-2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.s-name {
+    display: flex;
+    gap: 1rem;
+}
+
+.s-date {
+    display: flex;
+    gap: 3rem;
+}
+
+.second-img {
+    width: 80%;
+    margin: auto;
+}
+
+.s-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.second-left h4 {
+    color: #D71462;
+}
+
+.td-text {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem
+}
+
+.td-text h6 {
+    color: #D71462;
+    font-weight: bolder;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.td-text h2 {
+    font-size: 3rem;
+}
+
+.fest-city-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #110938, #B9135B);
+    padding: 1rem;
+}
+
+.fest-city-2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fest-left,
+.fest-right {
+    display: flex;
+    align-items: baseline;
+}
+
+.qw {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #0567F3;
+}
+
+.fest-left i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: #D71462;
+
+}
+
+.h1q h2 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.fest-right i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: #D71462;
+}
+
+.h1w h2 {
+    font-size: 3rem;
+    padding: 1rem 4rem 1rem 1rem;
+}
+
+.forth-div {
+    display: flex;
+    width: 16.65%;
+    margin-top: 4rem;
+    height: 350px;
+
+}
+
+.forth-div img {
+    height: 300px;
+}
+
+.fifth-div {
+    width: 90%;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.f-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.zx {
+    background-color: #0567F3;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.f-heading h3 {
+    color: #D71462;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.f-heading h1 {
+    font-size: 3rem;
+}
+
+.fifth-div hr {
+    margin: 1rem;
+    background: linear-gradient(90deg, #D41665, #0766F2);
+    height: 1px;
+    border: none;
+    border-radius: 5px;
+}
+
+.f-img {
+    display: flex;
+    gap: 1rem;
+}
+
+.aa {
+    background-color: #100726;
+}
+
+.aa h2 {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.aa p {
+    color: #D41665;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.sixth-div {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sixth-div h6 {
+    color: #D41665;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0.5rem;
+}
+
+.sixth-div h2 {
+    font-size: 3rem;
+}
+
+.picks img {
+    width: 12%;
+}
+
+.picks {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0 4rem 0;
+
+}
+
+.seventh-div{
+    background-image: url(https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/neon-bg-e1618242121980.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.seventh-div-1{
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.se-left{
+    width: 50%;
+}
+.se-left img{
+    display: flex;
+    justify-content: center;
+}
+.se-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.se-right li{
+    list-style: none;
+    margin: 0.5rem;
+}
+.se-right h4{
+    font-weight: bold;
+    font-size: large;
+}
+/* .hrrr{
+    background: linear-gradient(90deg, #D41665, #0766F2);
+} */
+.pink-div{
+    border: 10px solid #D71462;
+    height: 220px;
+    width: 50%;
+}
+.packkaro p{
+    margin: 2rem 0rem;
+}
+.packkaro{
+    margin-top: -15rem;
+    padding: 2rem;
+}
+.pink-div-icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+}
+.lastwli{
+    border:1px solid #17235D;
+}
+.lastwlap{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1220px) {
+    .t-info {
+        margin-top: -30px;
+    }
+
+    .tours {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .f-left {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 1030px) {
+    .mid ul li {
+        display: none;
+    }
+
+    .bi-list {
+        display: block;
+    }
+
+    .our {
+        width: 100%;
+    }
+
+    .our img {
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 300px;
+        padding: 0;
+    }
+
+    .t-image {
+        margin-top: -120px;
+    }
+
+    .about-us {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .ma-left h2 {
+        font-size: 57px;
+        margin: 2rem 0;
+    }
+
+    .ma-left,
+    .ma-right {
+        width: 100%;
+    }
+
+    .Ab {
+        height: 400px;
+    }
+
+
+    .fest-citys-1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fest-citys-2 {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .h1w h2 {
+        font-size: 1.5rem;
+        padding: 0%;
+    }
+
+    .h1w {
+        padding: 1rem 4rem 1rem 1rem;
+    }
+
+    .h1q h2 {
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
+
+    .fest-right i {
+        padding: 0.5rem;
+    }
+
+    .fest-left i {
+        padding: 0.5rem;
+    }
+
+    .h1q {
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .f-left h1 {
+        font-size: 60px;
+    }
+
+    .f-left {
+        width: 50%;
+    }
+}
+
+@media (max-width: 770px) {
+    .right {
+        display: none;
+    }
+
+    .left img {
+        width: 40%;
+    }
+
+    .front {
+        display: block;
+    }
+
+    .f-left,
+    .f-right {
+        width: 100%;
+    }
+
+    .tours {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .t-info {
+        height: 80%;
+        width: 100%;
+    }
+
+    .t-image {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .our img {
+        object-fit: cover;
+        margin-right: 8%;
+    }
+
+    .second-div {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .second-right {
+        width: 100%;
+        padding: 1rem 0 1rem 1rem;
+        margin-left: -0.5rem;
+
+    }
+
+    .second-left {
+        width: 100%;
+
+    }
+
+    .fest-city-1 {
+        flex-direction: column;
+        padding: 0.6rem;
+    }
+
+    .fest-city-2 {
+        flex-direction: column;
+        padding: 0.6rem;
+    }
+
+    .fest-left h3 {
+        margin-left: 20%;
+    }
+
+    .fest-right {
+        position: relative;
+    }
+
+    .qw {
+
+        padding: 0.5rem 1rem;
+        position: absolute;
+        margin-left: 80%;
+    }
+
+    .forth-div {
+        display: block;
+        width: 100%;
+    }
+
+    .forth-div img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+    .fifth-div {
+        margin-top: 57rem;
+        width: 100%;
+        padding: 0%;
+    }
+
+
+    .f-img {
+        flex-direction: column;
+    }
+
+    .f-text {
+        flex-direction: column;
+    }
+
+    .f-heading {
+        text-align: center;
+    }
+
+    .f-heading h1 {
+        font-size: 1.7rem;
+    }
+
+    .zx {
+        margin-left: 28%;
+    }
+
+    .tt {
+        display: none;
+    }
+
+    .picks img {
+        width: 26%;
+    }
+
+    .six-div h2 {
+        font-size: 1.5rem;
+    }
+    .se-left,.se-right{
+        width: 100%;
+    }
+    .se-right{
+        justify-content: flex-start;
+        gap: 5rem;
+    }
+    .se-left img{
+        width: 35%;
+    }
+    .seventh-div{
+        height: 700px;
+    }
+    .seventh-div-1{
+        flex-direction: column;
+    }
+}
+@media (max-width: 320px){
+    .second-div{
+        margin-top: 200px;
+    }
+}
